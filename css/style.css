@@ -1,0 +1,135 @@
+*{
+	font-family: roboto;
+}
+
+.fluid-edit {
+	background-color: black;
+	height: 10%;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+.navbar.navbar-default.navbar {
+	background-color: silver;
+	position: static;
+	height: 75px;
+  vertical-align: bottom;
+}
+
+
+.navbar-header .navbar-brand .img-circle.img-responsive {
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+.container-fluid .navbar-header .navbar-brand {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.navbar.navbar-default.navbar .container-fluid #topFixedNavbar1 {
+	margin-top: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.nav.navbar-form.navbar-right .form-group .form-control.input-edit {
+	width: 250px;
+}
+
+
+
+.shop-edit , .sub-edit, .about-edit{
+	font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  padding: 0px;
+}.navbar.navbar-default.navbar .container-fluid #topFixedNavbar1 {
+	padding: 0px;
+}
+#topFixedNavbar1 .nav.navbar-form.navbar-right .form-group {
+	display: inline;
+}
+#topFixedNavbar1 .nav.navbar-form.navbar-right .btn.btn-default.glyphicon.glyphicon-search {
+	display: inline;
+}
+
+.navbar .navbar-default .navbar{
+	border-bottom: 10px;
+	border-style: solid;
+	border-color: black;
+}
+
+.navbar.navbar-default.navbar {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	margin: 0px;
+	border-color: black;
+
+}
+.thumbnail .row .col-lg-6 {
+
+}
+.col-lg-12 .thumbnail .row {
+	height: 400px;
+}
+
+.heading-edit {
+	font-size: 60px;
+}
+
+.p-hero-edit {
+	font-size: 30px;
+}
+
+.home-head-edit {
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+.home-p-edit{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.home-arrow-edit {
+	font-size: 60px;
+	margin-left: 20px;
+}
+
+.padding-edit{
+	padding: 0px;
+}
+
+.head-thumbnail {
+	background-color: aqua;
+	padding: 0px;
+	height: 700px;
+}
+
+.selection-section {
+	justify-content: center;
+	padding: 0px;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+
+.selection-section-p {
+	text-align: center;
+	margin-top: 10px;
+	font-size: x-large;
+}
+
+.col-md-6 {
+	
+}
