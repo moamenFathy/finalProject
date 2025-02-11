@@ -1,135 +1,257 @@
-*{
-	font-family: roboto;
+* {
+  font-family: roboto;
 }
 
 .fluid-edit {
-	background-color: black;
-	height: 10%;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: 15px;
-	text-align: center;
+  background-color: black;
+  height: 10%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
 }
+
 .navbar.navbar-default.navbar {
-	background-color: silver;
-	position: static;
-	height: 75px;
+  background-color: silver;
+  position: static;
+  height: 75px;
   vertical-align: bottom;
 }
 
-
 .navbar-header .navbar-brand .img-circle.img-responsive {
-	width: 50px;
-	height: 50px;
-	padding: 0px;
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-bottom: 0px;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
 }
 
 .container-fluid .navbar-header .navbar-brand {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .navbar.navbar-default.navbar .container-fluid #topFixedNavbar1 {
-	margin-top: 10px;
-	text-align: center;
-	vertical-align: middle;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
 }
+
 .nav.navbar-form.navbar-right .form-group .form-control.input-edit {
-	width: 250px;
+  width: 250px;
 }
 
-
-
-.shop-edit , .sub-edit, .about-edit{
-	font-size: 30px;
+.shop-edit,
+.sub-edit,
+.about-edit {
+  font-size: 30px;
   text-align: center;
   vertical-align: middle;
   margin-bottom: 0px;
   padding: 0px;
-}.navbar.navbar-default.navbar .container-fluid #topFixedNavbar1 {
-	padding: 0px;
-}
-#topFixedNavbar1 .nav.navbar-form.navbar-right .form-group {
-	display: inline;
-}
-#topFixedNavbar1 .nav.navbar-form.navbar-right .btn.btn-default.glyphicon.glyphicon-search {
-	display: inline;
 }
 
-.navbar .navbar-default .navbar{
-	border-bottom: 10px;
-	border-style: solid;
-	border-color: black;
+.navbar.navbar-default.navbar .container-fluid #topFixedNavbar1 {
+  padding: 0px;
+}
+
+#topFixedNavbar1 .nav.navbar-form.navbar-right .form-group {
+  display: inline;
+}
+
+#topFixedNavbar1
+  .nav.navbar-form.navbar-right
+  .btn.btn-default.glyphicon.glyphicon-search {
+  display: inline;
+}
+
+.navbar .navbar-default .navbar {
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: black;
 }
 
 .navbar.navbar-default.navbar {
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	margin: 0px;
-	border-color: black;
-
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  margin: 0px;
+  border-color: black;
 }
 .thumbnail .row .col-lg-6 {
-
 }
 .col-lg-12 .thumbnail .row {
-	height: 400px;
+  height: 400px;
 }
 
 .heading-edit {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 .p-hero-edit {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .home-head-edit {
-	font-size: 40px;
-	margin-left: 20px;
+  font-size: 40px;
+  margin-left: 20px;
 }
 
-.home-p-edit{
-	font-size: 30px;
-	margin-top: 50px;
-	margin-bottom: 30px;
-	margin-left: 20px;
+.home-p-edit {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .home-arrow-edit {
-	font-size: 60px;
-	margin-left: 20px;
+  font-size: 60px;
+  margin-left: 20px;
 }
 
-.padding-edit{
-	padding: 0px;
+.padding-edit {
+  padding: 0px;
 }
 
 .head-thumbnail {
-	background-color: aqua;
-	padding: 0px;
-	height: 700px;
+  background-color: aqua;
+  padding: 0px;
+  height: 700px;
 }
 
 .selection-section {
-	justify-content: center;
-	padding: 0px;
-	margin-top: 25px;
-	margin-bottom: 35px;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .selection-section-p {
-	text-align: center;
-	margin-top: 10px;
-	font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-large;
 }
 
-.col-md-6 {
-	
+.product-section {
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.home-selection-head {
+  font-size: 50px;
+}
+
+.home-selection-p {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.home-selection-button {
+  padding: 15px 32px;
+  background-color: #34495e;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.home-selection-button:hover {
+  background-color: #2ecc71;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.home-bestseller-section {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.head-bestseller-section {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+.p-bestseller-section {
+  font-size: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.firstcard-edit {
+  margin-left: 50px;
+}
+
+.div-bestseller-price {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  /* background-color: #C0C0C0; */
+  border-radius: 50px;
+  padding-left: 23%;
+}
+
+.p-bestseller-section-price {
+  background-color: #c0c0c0;
+  width: 50px;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.head-bestseller-cards, .p-bestseller-cards {
+  text-align: center;
+}
+
+.right-carousel-edit {
+  /* background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, 0))); */
+  background-color: transparent;
+  transition: background-image 0s;
+}
+
+.right-carousel-edit:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, 0)));
+}
+
+.glyphicon-chevron-right {
+  transition: color 0.5s;
+}
+
+.glyphicon-chevron-right:hover {
+  color: black;
+}
+
+.grid-card-edit {
+  width: 80%;
+}
+
+.button-bestseller-cards {
+  text-align: center;
+}
+
+.p-footer-section {
+  font-size: 30px;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+  font-size: x-large;
+  margin: 10px;
+  text-align: center;
+}
+
+.col-md-12 {
+  text-align: center;
 }
